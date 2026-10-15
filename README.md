@@ -4,7 +4,7 @@ Educational TensorFlow / Keras notebook based on the original **GPT2_Mini_Chat.i
 
 ## Notebooks
 
-- [GPT2_Mini_Chat.ipynb](GPT2_Mini_Chat.ipynb): the original SODA pretraining code, preserved for reference.
+- Original source: the user-provided `GPT2_Mini_Chat.ipynb`. The LoRA notebook directly reproduces its GPT model architecture, tokenizer and chat prompt format; the original full pretraining notebook is not included in this repository.
 - [GPT2_Mini_MedDialog_LoRA.ipynb](GPT2_Mini_MedDialog_LoRA.ipynb): loads the existing GPT weights, freezes the base, adds Q/V LoRA, trains on short MedDialog patient/doctor turns, plots train/validation loss, compares LoRA ON/OFF and saves only the adapter.
 
 **Open in Colab:** https://colab.research.google.com/github/dujing82-blip/tiny-transformer/blob/main/GPT2_Mini_MedDialog_LoRA.ipynb
